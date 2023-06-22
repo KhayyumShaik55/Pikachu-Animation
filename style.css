@@ -1,0 +1,17 @@
+#pikachu {
+  position: absolute;
+  width: 650px;
+  height: 280px;
+  background-image: url('pokemon.gif');
+  background-repeat: no-repeat ;
+  background-position: center 0 0;
+  top: 70%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  animation: pikachu-animation 8s steps(4) infinite;
+}
+
+@keyframes pikachu-animation {
+  0% { background-position: 0 0; }
+  100% { background-position: -480px 0; }
+}
